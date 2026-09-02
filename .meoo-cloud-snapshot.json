@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "collectedAt": "2026-08-30T14:20:12.247Z",
+  "hasDatabase": true,
+  "edgeFunctions": [
+    {
+      "slug": "analyze-text",
+      "name": "analyze-text",
+      "verifyJwt": false
+    },
+    {
+      "slug": "ocr-extract",
+      "name": "ocr-extract",
+      "verifyJwt": false
+    },
+    {
+      "slug": "parse-dictionary",
+      "name": "parse-dictionary",
+      "verifyJwt": false
+    }
+  ],
+  "secretNames": [
+    "SUPABASE_ANON_KEY",
+    "SUPABASE_SERVICE_ROLE_KEY",
+    "SUPABASE_DB_URL",
+    "SUPABASE_URL",
+    "SUPABASE_PUBLIC_URL",
+    "MEOO_PROJECT_API_KEY"
+  ]
+}
